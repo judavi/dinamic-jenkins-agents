@@ -1,0 +1,32 @@
+{
+  "name": "NODENAME",
+  "nodeDescription": "",
+  "numExecutors": "1",
+  "remoteFS": "/",
+  "labelString": "",
+  "mode": "NORMAL",
+  "": [
+    "hudson.slaves.JNLPLauncher",
+    "hudson.slaves.RetentionStrategy$Always"
+  ],
+  "launcher": {
+    "stapler-class": "hudson.slaves.JNLPLauncher",
+    "$class": "hudson.slaves.JNLPLauncher",
+    "workDirSettings": {
+      "disabled": false,
+      "workDirPath": "",
+      "internalDir": "remoting",
+      "failIfWorkDirIsMissing": false
+    },
+    "tunnel": "",
+    "vmargs": ""
+  },
+  "retentionStrategy": {
+    "stapler-class": "hudson.slaves.RetentionStrategy$Always",
+    "$class": "hudson.slaves.RetentionStrategy$Always"
+  },
+  "nodeProperties": {
+    "stapler-class-bag": "true"
+  },
+  "type": "hudson.slaves.DumbSlave"
+}
